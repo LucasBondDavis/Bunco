@@ -743,7 +743,7 @@ if config.gameplay_reworks then
             end
             return {key = 'c_bunc_wheel_of_fortune', vars = vars}
         end,
-        pos = config.fixed_sprites and coordinate(4) or nil,
+        pos = config.fixed_sprites and coordinate(11) or nil,
         atlas = config.fixed_sprites and 'bunco_resprites_consumables' or nil
     })
 
